@@ -1,10 +1,10 @@
 # caddy-cloudflare-crowdsec
 
 [Caddy Docker image](https://hub.docker.com/_/caddy) with the following modules included:
-* mholt/caddy-l4
-* caddyserver/transform-encoder
-* hslatman/caddy-crowdsec-bouncer
-* caddy-dns/cloudflare
+* https://github.com/mholt/caddy-l4
+* https://github.com/caddyserver/transform-encoder
+* https://github.com/hslatman/caddy-crowdsec-bouncer
+* https://github.com/caddy-dns/cloudflare
 
 ## Why?
 I've been using Docker for years, but have never built an image. Also couldn't find a Caddy image with the aforementioned modules included.
@@ -54,5 +54,5 @@ CS_LOCAL_API_KEY=crowdsec_local_api_key
 
 Refer to the respective projects for further documentation:
 * [caddy](https://hub.docker.com/_/caddy)
-* hslatman/caddy-crowdsec-bouncer/#usage
-* caddy-dns/cloudflare
+* https://github.com/hslatman/caddy-crowdsec-bouncer/#usage
+* https://github.com/caddy-dns/cloudflare
