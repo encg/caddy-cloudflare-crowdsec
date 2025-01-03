@@ -12,7 +12,6 @@ I've been using Docker for years, but have never built an image. Also couldn't f
 ## Usage
 #### docker-compose.yml
 ```
-version: "3.8"
 services:
   caddy:
     image: encg/caddy-cloudflare-crowdsec
